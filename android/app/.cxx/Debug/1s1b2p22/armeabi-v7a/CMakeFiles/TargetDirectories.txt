@@ -1,0 +1,2 @@
+C:/Users/sankh/OneDrive/Desktop/random_quote_app/android/app/.cxx/Debug/1s1b2p22/armeabi-v7a/CMakeFiles/edit_cache.dir
+C:/Users/sankh/OneDrive/Desktop/random_quote_app/android/app/.cxx/Debug/1s1b2p22/armeabi-v7a/CMakeFiles/rebuild_cache.dir
