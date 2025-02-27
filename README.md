@@ -1,16 +1,44 @@
-# random_quote_app
+# Random Quote App
 
-A new Flutter project.
+A simple Flutter app that fetches and displays random quotes from the **Quotable API**.
 
-## Getting Started
+## 📱 Features
+- Fetches a random quote from `https://api.quotable.io/random`
+- Displays the quote in a clean and minimal UI
+- Refreshes with a new quote when the **Fetch Quote** button is pressed
 
-This project is a starting point for a Flutter application.
+## 🚀 Getting Started
 
-A few resources to get you started if this is your first Flutter project:
+### Prerequisites
+Make sure you have the following installed:
+- Flutter SDK
+- Dart
+- Android Studio or VS Code
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Installation
+1. **Clone the repository**
+   ```sh
+   git clone https://github.com/your-username/random-quote-app.git
+   cd random-quote-app
+   ```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+2. **Install dependencies**
+   ```sh
+   flutter pub get
+   ```
+
+3. **Run the app**
+   ```sh
+   flutter run
+   ```
+
+## 🛠️ How It Works
+
+1. The UI consists of a `Text` widget displaying the quote and a `Fetch Quote` button.
+2. When the button is pressed, the `fetchQuote()` function is called.
+3. The function makes an HTTP GET request to `https://api.quotable.io/random`.
+4. The response is decoded to extract the quote (`content` field).
+5. The `setState()` method updates the UI with the new quote.
+
+
+
